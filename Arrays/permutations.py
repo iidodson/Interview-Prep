@@ -3,7 +3,6 @@ def __generateAllPermutations(runningCHoices, arr, allPermutations):
         allPermutations.append(runningCHoices)
         print(runningCHoices)
         return
-       
 
     for i in range(len(arr)):
         choice = arr[i]
